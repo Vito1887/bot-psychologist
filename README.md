@@ -1,4 +1,4 @@
-# Психолог-бот (MVP)
+# Бот-психолог
 
 Минимальный продукт: Telegram-бот + Backend (FastAPI) + Web (Next.js), разворачивается через docker compose.
 
