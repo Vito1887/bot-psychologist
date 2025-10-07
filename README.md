@@ -49,3 +49,5 @@ docker compose up --build
 pip install -r backend/requirements.txt -r backend/requirements.dev.txt
 pytest -q backend/tests
 ```
+
+Примечание: тесты используют in-memory SQLite и переопределяют зависимости БД приложения, таблицы создаются автоматически.
